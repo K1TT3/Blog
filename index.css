@@ -1,0 +1,51 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.div-main{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.div-nav-bar{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-content{
+    width: 100%;
+    height: 90%;
+    background-color: #10162F;
+}
+.div-post{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+#button-new-post{
+    height: 100%;
+    width: 10%;
+    font-size: 24px;
+    outline: none;
+}
+#input-new-post{
+    height: 90%;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+}
+#input-new-post:focus{
+    border: 2px solid blue;
+}
